@@ -1,0 +1,1 @@
+Va rugam sa adaugati in folder-ul drivers, chrome driver-ul pentru PC-ul dvs.
