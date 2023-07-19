@@ -75,12 +75,12 @@ public class DemoQaTutorial {
 ////            driver.manage().window().maximize();
 //
 //
-////        tag name selector -> div, head, strong, a, (cauta dupa tag)
+////     tag name selector -> div, head, strong, a, (cauta dupa tag)
 //            WebElement header = driver.findElement(By.tagName("header"));
 ////        header.click();
 ////
-////        css -> .className - cauta dupa nume clasa (cu . inainte)
-////        xpath -> tagName[@property = 'value']
+////    css -> .className - cauta dupa nume clasa (cu . inainte)
+////    xpath -> //tagName[@property = 'value']
 //            WebElement formCard = driver.findElement(By.xpath("(//div[@class='card mt-4 top-card'])[2]"));
 //            formCard.click();
 //            Thread.sleep(500);

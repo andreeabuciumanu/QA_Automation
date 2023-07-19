@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Demo QA Test Suite" parallel="false">
+<suite name="Demo QA Test Suite" parallel="true">
     <test verbose="2" preserve-order="true" name="/home/andreeabuciumanu/IdeaProjects/Marte-23-03-23">
 
         <classes>
@@ -15,6 +15,7 @@
             <class name="org.skillbrain.ButtonClickTutorial"/>
             <class name="org.skillbrain.SeleniumSelectors"/>
             <class name="org.skillbrain.AlertTutorial"/>
+            <class name="org.skillbrain.CuraHealthCareTest"></class>
 
 
         </classes>
