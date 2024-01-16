@@ -50,7 +50,8 @@ public class Employee extends Person{
 //        Person persoana = new Person();
 //
 //
-//        Person cristian = new Person("CRISTIAN", "SANDU");
+        Person cristian = new Person("CRISTIAN", "SANDU");
+        cristian.sayHello();
 //            Base b = new Base();
 //
 //        Person andrei = new Person("Andrei","Matei", 45);

@@ -18,6 +18,7 @@ public class Automobil {
     Automobil(){
         int randomNUmber = new Random().nextInt();
         this.vin = "VR" + counter + randomNUmber;
+        System.out.println(counter);
     }
 
 

@@ -19,8 +19,7 @@ public class CuraHealthcare {
     public static final String HOME = "Home";
 
 
-    @FindBy(linkText = HOME)
-    public WebElement home;
+
     @FindBy(css = MENU)
     public WebElement menu;
     @FindBy(linkText = LOGIN)
@@ -37,6 +36,8 @@ public class CuraHealthcare {
     public WebElement login_text;
     @FindBy(css = LOGIN_FAILED)
     public WebElement login_failed;
+    @FindBy(linkText = HOME)
+    public WebElement home;
 
     public CuraHealthcare(WebDriver driver) {
         PageFactory.initElements(driver, this);
